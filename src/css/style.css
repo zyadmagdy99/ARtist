@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+.inner_img {
+    background-image: url("../ai/3d-rendered-illustration-human-face-design.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    border-radius: 5%;
+}
+ 
+@media screen and (min-width: 500px) {
+    .inner_img {
+        height: 400px;
+        width: 90%;
+        border-radius: 1%;
+    }
+}
+
+
+.title{
+    font-size: 25px;
+    
+}
